@@ -22,7 +22,7 @@
         android:id="@android:id/tabs"
         android:background="@color/azul"
         android:textColor="@color/white"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         />
 
@@ -217,7 +217,7 @@
             </androidx.constraintlayout.widget.ConstraintLayout>
 
             <Button
-                android:id="@+id/btnLongitudConvertir"
+                android:id="@+id/btnAreaConvertir"
                 android:layout_width="237dp"
                 android:layout_height="65dp"
                 android:layout_below="@+id/backgroundConversor"
@@ -233,6 +233,22 @@
                 android:textColor="@color/cream"
                 app:cornerRadius="6dp"
                 />
+
+            <TextView
+                android:id="@+id/lblrespuestaArea"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btnAreaConvertir"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="167dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="42dp"
+                android:layout_marginEnd="164dp"
+                android:layout_marginBottom="279dp"
+                android:text="Respuesta: ?"
+                android:textColor="@color/azul" />
 
         </RelativeLayout>
 
