@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">ParcialI</string>
+
+    <string name="d">DE:</string>
+    <string name="a">A:</string>
+    <string name="num1">Numero 1:</string>
+    <string name="num2">Numero 2:</string>
+    <string name="cac">Cantidad a Convertir</string>
+    <string name="convertir">CONVERTIR</string>
+
+    <string-array name="spnArea">
+        <item>Manzanas</item>
+        <item>Pie cuadrado</item>
+        <item>Vara cuadrado</item>
+        <item>Yarda cuadrada</item>
+        <item>Metro cuadrado</item>
+        <item>Hectareas</item>
+        <item>Tareas</item>
+    </string-array>
+
+</resources>
